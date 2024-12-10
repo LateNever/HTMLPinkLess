@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main class="review">
+      <h2 class="review__title">
+        Поделитесь своей историей и получите шанс выиграть ценный приз — 1000
+        миль на вашу бонусную карту!
+      </h2>
+      <form
+        class="review__form"
+        action="https://echo.htmlacademy.ru/"
+        method="get"
+      >
+        <fieldset class="review__fieldset">
+          <label class="review__label"
+            >ФАМИЛИЯ:
+            <input
+              class="review__name"
+              type="text"
+              name="surname"
+              placeholder="Укажите фамилию *"
+            />
+          </label>
+          <label class="review__label"
+            >ИМЯ:
+            <input
+              class="review__name"
+              type="text"
+              name="name"
+              placeholder="Введите ваше имя *"
+            />
+          </label>
+          <label class="review__label"
+            >ОТЧЕСТВО:
+            <input
+              class="review__name"
+              type="text"
+              name="patronymic"
+              placeholder="Ну и отчество тоже"
+            />
+          </label>
+        </fieldset>
+        <fieldset class="review__fieldset">
+          <legend class="review__subtitle"></legend>
+          <ul class="review__list">
+            <li class="review__item">
+              <label class="review__control">
+                <input
+                  class="review__control-input checkbox-hidden"
+                  type="checkbox"
+                  name="selfie-shark"
+                  checked
+                />
+                <span class="review__control-mark"></span>
+                <span class="review__control-label">Сделал селфи с акулой</span>
+              </label>
+            </li>
+            <li class="review__achievement">
+              <label class="review__control">
+                <input
+                  class="review__control-input checkbox-hidden"
+                  type="checkbox"
+                  name="beach-burn"
+                  checked
+                />
+                <span class="review__control-mark"></span>
+                <span class="review__control-label">Обгорел на пляже</span>
+              </label>
+            </li>
+            <li class="review__achievement">
+              <label class="review__control">
+                <input
+                  class="review__control-input checkbox-hidden"
+                  type="checkbox"
+                  name="chuck-norris"
+                  checked
+                />
+                <span class="review__control-mark"></span>
+                <span class="review__control-label">Видел Чака Норриса</span>
+              </label>
+            </li>
+            <li class="review__achievement">
+              <label class="review__control">
+                <input
+                  class="review__control-input checkbox-hidden"
+                  type="checkbox"
+                  name="souvenirs-buy"
+                  checked
+                />
+                <span class="review__control-mark"></span>
+                <span class="review__control-label">Накупил сувениров</span>
+              </label>
+            </li>
+            <li class="review__achievement">
+              <label class="review__control">
+                <input
+                  class="review__control-input checkbox-hidden"
+                  type="checkbox"
+                  name="tower-hold"
+                  checked
+                />
+                <span class="review__control-mark"></span>
+                <span class="review__control-label">Удержал башню</span>
+              </label>
+            </li>
+            <li class="review__achievement">
+              <label class="review__control">
+                <input
+                  class="review__control-input checkbox-hidden"
+                  type="checkbox"
+                  name="hotel-crash"
+                  checked
+                />
+                <span class="review__control-mark"></span>
+                <span class="review__control-label">Разгромил отель</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="review__fieldset">
+          <label class="review__label"
+            >НОМЕР ТЕЛЕФОНА
+            <input
+              class="review__phone"
+              type="tel"
+              name="phone"
+              placeholder="Номер, пожалуйста"
+            />
+          </label>
+          <label class="review__label"
+            >АДРЕС ПОЧТЫ
+            <input
+              class="review__email"
+              type="email"
+              name="name"
+              placeholder="Введите почту *"
+            />
+          </label>
+        </fieldset>
+        <fieldset class="review__fieldset">
+          <ul class="review__list">
+            <li class="review__item filter__item--os">
+              <label class="review__control">
+                <input
+                  class="review__control-input checkbox-hidden"
+                  type="radio"
+                  name="ios"
+                  value="true"
+                  checked
+                />
+                <span class="review__mark-circle"></span>
+                <span class="review__control-label">Pink для iOS</span>
+              </label>
+            </li>
+            <li class="review__item">
+              <label class="review__control">
+                <input
+                  class="review__control-input checkbox-hidden"
+                  type="radio"
+                  name="android"
+                  value="false"
+                />
+                <span class="review__mark-circle"></span>
+                <span class="review__control-label">Pink на Android</span>
+              </label>
+            </li>
+            <li class="review__item">
+              <label class="review__control">
+                <input
+                  class="review__control-input checkbox-hidden"
+                  type="radio"
+                  name="windows-phone"
+                  value="false"
+                />
+                <span class="review__mark-circle"></span>
+                <span class="review__control-label">Windows Phone</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <label class="review__label"
+          >ОПИШИТЕ СВОИ ЭМОЦИИ
+          <textarea
+            class="review__textarea"
+            name="review-text"
+            placeholder="Можно прям в красках, не
+          стесняясь в выражениях"
+          ></textarea>
+        </label>
+        <button class="review__button" type="submit">
+          <span class="review__submit">Отправить форму</span>
+        </button>
+        <span>* — обязательные поля</span>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
